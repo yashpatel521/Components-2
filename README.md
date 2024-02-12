@@ -1,10 +1,9 @@
-# React + Vite
+# Components Assignement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We will be creating a mock e-commerce store. In the `src/components` directory, you will find a file called `ProductCardContainer`. You will need to do:
 
-rob is good
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Fix any syntax errors you find in the components
+2. Move `ProductCard` into it's own file
+3. Import `ProductCard` into `ProductCardContainer` add three products with dummy data
+4. Import `ProductCardContainer` into `App.jsx`
+5. Create a `NavBar` and `Footer` component and add it to `App.jsx`

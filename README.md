@@ -8,3 +8,5 @@ We will be creating a mock e-commerce store. In the `src/components` directory, 
 4. Import `ProductCard` into `ProductCardContainer` add three products with dummy data
 5. Import `ProductCardContainer` into `App.jsx`
 6. Create a `NavBar` and `Footer` component and add it to `App.jsx`
+7. Run `npm run dev` to validate your changes work
+8. Push up your work to Github and open an PR to the master branch

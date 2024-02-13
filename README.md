@@ -1,12 +1,10 @@
-# Components Assignement
+# Conditional Rendering Assignement
 
-We will be creating a mock e-commerce store. In the `src/components` directory, you will find a file called `ProductCardContainer`. You will need to do:
+We will be working on the navbar of our e-commerce store. You well need to do:
 
-1. Create a git branch called `assignment-1` and checkout to it
-2. Fix any syntax errors you find in the components
-3. Move `ProductCard` into it's own file
-4. Import `ProductCard` into `ProductCardContainer` add three products with dummy data
-5. Import `ProductCardContainer` into `App.jsx`
-6. Create a `NavBar` and `Footer` component and add it to `App.jsx`
-7. Run `npm run dev` to validate your changes work
-8. Push up your work to Github and open an PR to the master branch
+1. Add to the `NavBar` component a button and uses the `if` keyword to have it say `Login` when a user is not logged in and `Welcome back! You are logged in` when logged in
+2. Use the ternary operator to indicate in the `ProductCard` component whether the product is in stock or out of stock
+3. Use the logical AND operator (&&) in the `ProductCard` component to say `Sale! 20% off` only if the product is on sale
+4. Set a variable called `shipped` in the `ProductCard` component to have a `span` element that says `Your order has been shipped!` or `Your order is being processed` if the order was shipped or not using the `if` keyword
+5. Use the `shipped` variable in the returned jsx of the `ProductCard`
+6. Push your code to GitHub and open a PR to branch `master`

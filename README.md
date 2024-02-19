@@ -33,4 +33,4 @@ We will continue working on the E-commerce store. You will need to do:
 
    2. In the `App` component, use `StyleWrapper` by passing the `Footer` component as a child to the `StyleWrapper` component
 
-6. Push your code to GitHub open a PR to comparing `develop` to `master` and submit a link to the PR in Omnivox
+6. Push your code to GitHub open a Pull Request comparing `develop` to `master`, and submit a link to the PR in Omnivox

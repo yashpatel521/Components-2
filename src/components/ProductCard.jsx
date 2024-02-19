@@ -1,10 +1,7 @@
 export default function ProductCard() {
   return (
     <>
-      <img
-        src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/169/16982/16982680.jpg"
-        alt="hp 15"
-      />
+      <img src="https://placehold.co/400x200.jpg?text=Product" alt="hp 15" />
       <h3>
         HP 15 Laptop w/ 1 year of Microsoft 365 - Natural Silver (Intel
         N100/128GB SSD/4GB RAM)

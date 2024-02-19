@@ -3,13 +3,13 @@ import ProductCardContainer from "./components/ProductCardContainer";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-function App() {
-  const user = {
-    firstName: "Olivia",
-    lastName: "Parker",
-    itemsInCart: 0,
-  };
+const user = {
+  firstName: "Olivia",
+  lastName: "Parker",
+  itemsInCart: 0,
+};
 
+function App() {
   const products = [
     {
       name: "Retro Polaroid Camera",
@@ -17,6 +17,7 @@ function App() {
         "Capture memories in style with this vintage-inspired instant camera.",
       price: 99.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Wireless Bluetooth Headphones",
@@ -24,6 +25,7 @@ function App() {
         "Enjoy your favorite tunes with these sleek and comfortable wireless headphones.",
       price: 79.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Smart Fitness Tracker",
@@ -31,6 +33,7 @@ function App() {
         "Stay motivated and track your workouts with this advanced fitness tracker.",
       price: 129.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Craft Beer Brewing Kit",
@@ -38,6 +41,7 @@ function App() {
         "Brew your own delicious craft beer at home with this easy-to-use brewing kit.",
       price: 59.99,
       isInStock: false,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Leather Messenger Bag",
@@ -45,6 +49,7 @@ function App() {
         "Stay organized and stylish on the go with this classic leather messenger bag.",
       price: 149.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Gourmet Coffee Subscription",
@@ -52,6 +57,7 @@ function App() {
         "Wake up to premium coffee beans delivered to your door every month.",
       price: 19.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Vintage Vinyl Record Player",
@@ -59,13 +65,15 @@ function App() {
         "Rediscover the warm sound of vinyl with this retro-inspired record player.",
       price: 199.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Portable Espresso Maker",
       description:
         "Enjoy a perfect shot of espresso anywhere with this compact and portable espresso maker.",
       price: 49.99,
-      isInStock: false,
+      isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Yoga Mat and Accessories Set",
@@ -73,6 +81,7 @@ function App() {
         "Find your zen with this complete yoga kit including mat, blocks, and strap.",
       price: 39.99,
       isInStock: true,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
     {
       name: "Stylish Sunglasses",
@@ -80,6 +89,7 @@ function App() {
         "Protect your eyes in style with these fashionable and UV-blocking sunglasses.",
       price: 29.99,
       isInStock: false,
+      imageUrl: "https://placehold.co/400x200.jpg?text=Product",
     },
   ];
 

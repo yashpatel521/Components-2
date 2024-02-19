@@ -1,10 +1,35 @@
-# Conditional Rendering Assignement
+# Components Assignement 2
 
 We will be working on the navbar of our e-commerce store. You well need to do:
 
-1. Add to the `NavBar` component a button and uses the `if` keyword to have it say `Login` when a user is not logged in and `Welcome back! You are logged in` when logged in
-2. Use the ternary operator to indicate in the `ProductCard` component whether the product is in stock or out of stock
-3. Use the logical AND operator (&&) in the `ProductCard` component to say `Sale! 20% off` only if the product is on sale
-4. Set a variable called `shipped` in the `ProductCard` component to have a `span` element that says `Your order has been shipped!` or `Your order is being processed` if the order was shipped or not using the `if` keyword
-5. Use the `shipped` variable in the returned jsx of the `ProductCard`
-6. Push your code to GitHub and open a PR to branch `master`
+1. Pass the `user` object as a prop to the `NavBar` component
+
+   1. The `NavBar` component should say "Welcome `User.Name`" only if the `user` prop was passed down. Otherwise it should say "login".
+   2. The `NavBar` should say "`user.ItemsInCart` in your cart" If the user has more than 0 itmes in his shopping cart. Else it should not say anything
+
+2. The `ProductCard` should be recieve as a prop the `products` variable
+
+   1. It should accept the following props: `name`, `description`, `price`, `imageUrl` and `isInStock`
+   2. It should display the product title, description, image URL, and price that were passed to it as props
+   3. It should use the logical AND operator (&&) to say "Unavalaible" only when `isInStock` is set to false
+   4. Add some style to it using the `style` prop. One idea would be to add a border around the card
+
+3. The `ProuductCardContainer` should accept a list of products as a prop
+
+   1. It should generate a list of `ProductCard` components using the JS `map` method
+
+4. Create a component called `StyleWrapper` that wraps children passed into it with a div
+
+   1. The div should set the folowing CSS styles using the style prop:
+
+   ```css
+   background-color: #f8f9fa; /* Light gray background */
+   padding: 20px; /* Padding around the content */
+   text-align: center; /* Center-align the text */
+   border-top: 1px solid #dee2e6; /* Optional border at the top */
+   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+   ```
+
+   2. In the `App` component, pass the `Footer` component as a child to the `StyleWrapper` component
+
+5. Push your code to GitHub and open a PR to branch `master` and submit a link to the PR in Omnivox

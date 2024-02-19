@@ -30,6 +30,6 @@ We will continue working on the E-commerce store. You will need to do:
    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
    ```
 
-   2. In the `App` component, pass the `Footer` component as a child to the `StyleWrapper` component
+   2. In the `App` component, use `StyleWrapper` by passing the `Footer` component as a child to the `StyleWrapper` component
 
 5. Push your code to GitHub open a PR to branch `master` and submit a link to the PR in Omnivox

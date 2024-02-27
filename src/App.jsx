@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { user } from "./constant/User";
 import StyleWrapper from "./components/StyleWrapper";
+import GameStartFunc from "./components/CustomButton";
 
 const styles = {
   backgroundColor: "#f8f9fa",
@@ -17,6 +18,8 @@ function App() {
   return (
     <main className="store">
       <NavBar user={user} />
+      <br />
+      <GameStartFunc gameName="Doremon" />
       <ProductCardContainer />
       <StyleWrapper styles={styles} section={<Footer />} />
     </main>
